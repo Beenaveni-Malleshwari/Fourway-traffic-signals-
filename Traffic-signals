@@ -1,0 +1,31 @@
+int LNR1=2;
+int LNY1=3;
+int LNG1=4;
+int LER2=5;
+int LEY2=6;
+int LEG2=7;
+int LWR3=8;
+int LWY3=9;
+int LWG3=10;
+int LSR4=11;
+int LSY4=12;
+int LSG4=13;
+void setup() {
+pinMode(LNR1, OUTPUT) ;
+pinMode(LNY1, OUTPUT) ;
+pinMode(LNG1, OUTPUT) ;
+pinMode(LER2, OUTPUT) ;
+pinMode(LEY2, OUTPUT) ;
+pinMode(LEG2, OUTPUT) ;
+pinMode(LWR3, OUTPUT) ;
+pinMode(LWY3, OUTPUT) ;
+pinMode(LWG3, OUTPUT) ;
+pinMode(LSR4, OUTPUT) ;
+pinMode(LSY4, OUTPUT) ;
+pinMode(LSG4, OUTPUT);
+void loop() {
+digitalWrite(LNR1, LOW);
+digitalWrite(LNY1, LOW) ;
+
+
+
